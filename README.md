@@ -52,60 +52,27 @@ A full-stack blog platform built with the MERN stack (MongoDB, Express.js, React
 
 ## Project Structure
 
-blog-platform/
+Blog-Platform/
+│
 ├── backend/
 │   ├── config/
-│   │   └── db.js                 # Database connection
 │   ├── controllers/
-│   │   ├── authcontrol.js        # Authentication logic
-│   │   └── postcontrol.js        # Post CRUD operations
 │   ├── middleware/
-│   │   ├── authmw.js             # JWT authentication
-│   │   └── errormw.js            # Error handling
 │   ├── models/
-│   │   ├── user.js               # User schema
-│   │   └── post.js               # Post schema
 │   ├── routes/
-│   │   ├── authRoutes.js         # Authentication routes
-│   │   └── postRoutes.js         # Post routes
-│   ├── .env                      # Environment variables
-│   ├── package.json              # Backend dependencies
-│   └── server.js                  # Entry point
+│   └── server.js
 │
 ├── frontend/
 │   ├── public/
-│   │   └── bg-image.jpg          # Background image
 │   ├── src/
-│   │   ├── api/
-│   │   │   └── api.js             # Axios configuration
-│   │   ├── components/
-│   │   │   ├── Loading.js         # Loading spinner
-│   │   │   ├── Navbar.js          # Navigation bar
-│   │   │   ├── Navbar.css
-│   │   │   └── ProtectedRoute.js  # Route protection
-│   │   ├── context/
-│   │   │   └── AuthContext.js     # Auth state management
-│   │   ├── pages/
-│   │   │   ├── Home.js            # All posts
-│   │   │   ├── Home.css
-│   │   │   ├── Login.js           # Login page
-│   │   │   ├── Register.js        # Registration
-│   │   │   ├── CreatePost.js      # Create post
-│   │   │   ├── EditPost.js        # Edit post
-│   │   │   ├── SinglePost.js      # Single post view
-│   │   │   ├── SinglePost.css
-│   │   │   ├── Profile.js         # User profile
-│   │   │   ├── Profile.css
-│   │   │   ├── Auth.css           # Auth styles
-│   │   │   └── PostForm.css       # Post form styles
-│   │   ├── App.js                 # Main app component
-│   │   ├── App.css
-│   │   ├── index.js                # Entry point
-│   │   └── index.css               # Global styles
-│   └── package.json                # Frontend dependencies
+│       ├── api/
+│       ├── components/
+│       ├── context/
+│       ├── pages/
+│       └── App.js
 │
-├── .gitignore                      # Git ignore file
-└── README.md                       # Project documentation
+├── .gitignore
+└── README.md
 
 ----------
 
