@@ -1,0 +1,108 @@
+.home-container {
+  max-width: 1100px;
+  margin: 3rem auto;
+  padding: 0 2rem;
+}
+
+.home-container h1 {
+  text-align: center;
+  margin-bottom: 2.5rem;
+  font-size: 2.2rem;
+  font-weight: 500;
+  color: #ebebeb;
+}
+
+.no-posts{
+  background: rgb(33, 73, 39,0.8);
+  border: 1px solid #2a5a3a;
+  border-radius: 16px;
+  padding: 2rem;
+  transition: 0.25s ease;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.04);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.no-post-msg{
+  font-size: 1.8rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-weight: 500;
+  color: beige;
+}
+
+.create-post-link{
+  text-align: center;
+  font-size: 1rem;
+  color:rgb(199, 238, 225);
+  background:#123208;
+  border: 1px solid #2a5a3a;
+  border-radius: 10px;
+  padding: 0.7rem 1.2rem;
+  display: inline-block;
+  font-weight: 500;
+}
+
+.create-post-link:hover{
+  background-color: #1e4a2a;
+  color:antiquewhite;
+}
+.posts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 2rem;
+}
+
+.post-card {
+  background: rgba(6, 59, 14,0.9);
+  border: 1px solid #2a5a3a;
+  border-radius: 16px;
+  padding: 1.5rem;
+  transition: 0.25s ease;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.04);
+  display: flex;
+  flex-direction: column;
+}
+
+.post-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+  border-color: #3a7a4a;
+}
+
+.post-title {
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #ebebeb;
+}
+
+.post-link:hover .post-title {
+  color: #8bc34a;
+}
+
+.post-content {
+  background : rgba(39, 117, 15, 0.3);
+  font-size: 0.95rem;
+  color: #ffffff;
+  line-height: 1.6;
+  margin-bottom: 1.2rem;
+  padding:0.8;
+  border-radius: 8px;
+  flex-grow: 1;
+}
+
+.post-meta {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.85rem;
+  color: #a5d6a5;
+  border-top: 1px solid #2a5a3a;
+  padding-top: 1rem;
+}
+
+.post-author {
+  font-weight: 400;
+  color: #a5d6a5;
+}
