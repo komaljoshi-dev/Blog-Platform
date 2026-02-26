@@ -51,7 +51,7 @@ A full-stack blog platform built with the MERN stack (MongoDB, Express.js, React
 ---------
 
 ## Project Structure
-
+```
 Blog-Platform/
 │
 ├── backend/
@@ -73,7 +73,7 @@ Blog-Platform/
 │
 ├── .gitignore
 └── README.md
-
+```
 ----------
 
 ## Installation
