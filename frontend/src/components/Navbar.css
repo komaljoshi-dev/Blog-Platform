@@ -1,0 +1,72 @@
+.navbar {
+  background-color: #0a2a1a;  /* Dark green */
+  border-bottom: 1px  #2a5a3a;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  backdrop-filter: blur(10px); /* Adds cinematic blur effect */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.nav-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-logo {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #9ddbb3;  /* Light green */
+  text-shadow: 0 2px 5px rgba(0, 255, 100, 0.2);
+}
+
+.nav-logo:hover {
+  color: #d0f0d0;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.nav-link {
+  color: #d3e5d3;  /* Light green */
+  font-weight: 400;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  transition: 0.2s ease;
+  font-size: 1rem;
+}
+
+.nav-link:hover {
+  background-color: #173421;
+  color: #ffffff;
+}
+
+.nav-user {
+  font-weight: 400;
+  font-size: 1rem;
+  color: #a5d6a5;
+}
+
+.nav-logout-btn {
+  background-color: #051c0d;
+  border: 1px solid #2a5a3a; 
+  padding: 0.4rem 0.9rem;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s ease;
+  font-size: 1rem;
+  font-weight:400;
+}
+
+.nav-logout-btn:hover {
+  background-color:  #1e4a2a;
+  color:white;
+}

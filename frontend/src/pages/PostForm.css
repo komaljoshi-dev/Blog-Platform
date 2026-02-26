@@ -1,0 +1,113 @@
+.post-form-container {
+  max-width: 750px;
+  margin: 3rem auto;
+  padding: 2.5rem;
+  background: rgba(18, 50, 8, 0.6);
+  border-radius: 16px;
+  border: 1px  solid #2a5a3a; ;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+.post-form-container h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color:rgb(249, 248, 247);
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.post-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.post-form .form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.post-form .form-group label {
+  font-weight: 400;
+  color: #e2e9e3;
+  font-size: 1rem;
+}
+
+
+.post-form input,
+.post-form textarea {
+  padding: 0.9rem;
+  border: 1px   solid #2a5a3a;
+  border-radius: 8px;
+  background: rgba(8, 59, 19, 0.5);
+  transition: 0.2s ease;
+  font-size: 1rem;
+  color:#f7f7f7;
+}
+
+.post-form input:focus,
+.post-form textarea:focus {
+  outline: none;
+  background: rgba(8, 59, 19, 0.5);
+  border-color: #3a7a4a;
+  box-shadow: 0 0 0 2px rgba(13, 214, 67, 0.2);
+}
+
+.post-form textarea {
+  min-height: 180px;
+  resize: vertical;
+}
+
+.submit-btn {
+  padding: 0.9rem;
+  background: #081605;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.submit-btn:hover:not(:disabled) {
+  background: #030e03;
+  color: #cbf3c2;
+}
+
+.submit-btn:disabled {
+  background-color: #2a5a3a;
+  cursor: not-allowed;
+}
+.form-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.cancel-btn {
+  flex: 1;
+  padding: 0.9rem;
+  background-color: #4a5568;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 5600;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.cancel-btn:hover:not(:disabled) {
+  background-color: #2d3748;
+}
+
+.cancel-btn:disabled {
+  background-color: #718096;
+  cursor: not-allowed;
+}
+
+.submit-btn {
+  flex: 2;
+}

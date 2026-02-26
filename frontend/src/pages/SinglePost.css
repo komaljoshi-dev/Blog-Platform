@@ -1,0 +1,83 @@
+.single-post-container {
+  max-width: 850px;
+  margin: 3rem auto;
+  padding: 0 2rem;
+  
+}
+
+.post-content {
+  border-radius: 18px;
+  padding: 2.5rem;
+  box-shadow: 0 6px 25px rgba(0,0,0,0.05);
+  border: 1px solid #2a5a3a;
+  background-color: rgba(12, 44, 2, 0.8);
+}
+
+.post-content h1 {
+  font-size: 2.2rem;
+  margin-bottom: 1.5rem;
+  color:rgb(249, 248, 247);
+  font-weight: 500;
+}
+
+.post-metadata {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #2a5a3a;
+  color: #a5d6a5;
+  font-size: 0.95rem;
+}
+
+.post-body {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #f0f4f0;
+  margin-bottom: 2rem;
+}
+
+.post-actions {
+  display: flex;
+  gap: 1rem;
+}
+
+.edit-btn {
+  flex: 1;
+  padding: 0.9rem;
+  background: #1e4a2a;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s ease;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.edit-btn:hover:not(:disabled) {
+  background: #2a5a3a;
+}
+
+.delete-btn {
+  flex: 1;
+  padding: 0.9rem;
+  background: #b91c1c;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s ease;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.delete-btn:hover:not(:disabled) {
+  background: #991b1b;
+}
+
+.delete-btn:disabled,
+.edit-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}

@@ -1,0 +1,111 @@
+.auth-container {
+    max-width: 450px;
+    margin: 3rem auto;
+    padding: 2.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    background-color: rgba(18, 50, 8,0.8);
+}
+  
+  .auth-container h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color:rgb(249, 248, 247);
+    font-size: 2rem;
+    font-weight: 500;
+  }
+  
+  .auth-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+  
+  .form-group label {
+    font-weight: 400;
+    color: #e2e9e3;
+    font-size: 1rem;
+  }
+  
+  .form-group input {
+    padding: 0.8rem 1rem;
+    background-color: #3a7129;
+    border: 1px  solid #2a5a3a;
+    border-radius: 6px;
+    font-size: 1rem;
+    transition: all 0.3s;
+    color:#f7f7f7;
+  }
+  
+  .form-group input:focus {
+    outline: none;
+    border-color: #005d1c;
+    box-shadow: 0 0 0 3px rgba(23, 218, 78, 0.1);
+  }
+  
+  .form-group input:disabled {
+    background-color: #f5f5f5;
+    cursor: not-allowed;
+    opacity: 0.7;
+  }
+  
+  .auth-btn {
+    padding: 0.9rem;
+    background-color:#081605;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin-top: 0.5rem;
+  }
+  
+  .auth-btn:hover:not(:disabled) {
+    background-color: #030e03;
+    color:#cbf3c2;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(8, 85, 26, 0.3);
+  }
+  
+  .auth-btn:disabled {
+    background-color: #2a5a3a;
+    cursor: not-allowed;
+    transform: none;
+  }
+  
+  .auth-link {
+    text-align: center;
+    margin-top: 1.5rem;
+    color: #a5d6a5;
+    font-size: 0.95rem;
+  }
+  
+  .auth-link a {
+    color: #b7e4c7;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 0.3rem;
+  }
+  
+  .auth-link a:hover {
+    text-decoration: underline;
+  }
+  
+  @media (max-width: 480px) {
+    .auth-container {
+      margin: 1rem;
+      padding: 1.5rem;
+    }
+    
+    .auth-container h2 {
+      font-size: 1.75rem;
+    }
+  }
